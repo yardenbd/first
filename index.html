@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+<body>
+    <button>album</button>
+    <button>post</button>
+    <button>user</button>
+ <script>
+    
+        
+        const queryString = window.location.search;
+        
+        const urlParams= new URLSearchParams(queryString)
+        
+        const _Param = urlParams.get('albums')
+        console.log(_Param)
+    
+ 
+ </script>   
+</body>
+</html>
